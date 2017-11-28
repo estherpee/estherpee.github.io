@@ -255,22 +255,22 @@ li {
 	position: relative;
 	height: 100vh;
 }
-/*.intro-img {
+.intro-img {
 	height: auto;
 	width: 400px;
 	position: absolute;
 	transform: translate(-50%, -50%);
 	top: 38vh;
 	left: 45vw;
-}*/
+}
 
-.intro-img {
+/*.intro-img {
 	position: absolute;
 	transform: translate(-50%, -50%);
 	top: 40%;
 	left: 52%;
 	
-}
+}*/
 
 @media (max-width: 40em){
 	.intro-section h1 {
