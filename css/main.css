@@ -7,7 +7,7 @@ body{
 }
 p {
 	font-size: 0.9em;
-	
+
 }
 
 
@@ -487,9 +487,16 @@ header {
 .bio {
 	max-width: 800px;
 	margin-bottom: 5em;
+
 }
 
+.bio a{
+	padding-top: 4em;
+	padding-bottom: 2em;
+	font-size: 1em;
 
+
+}
 .bio h1{
 	padding-top: 4em;
 	padding-bottom: 2em;
@@ -497,6 +504,7 @@ header {
     font-weight: normal;
     font-style: normal;
 	font-size: 2em;
+	line-height: 160%
 }
 @media (max-width: 40em){
 	.bio h1{
