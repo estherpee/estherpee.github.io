@@ -8,4 +8,9 @@ $(document).scroll(function() {
   } else {
     $('.box-container').fadeIn(200);
   }
+  if (y >100) {
+    $('.line').fadeOut(100);
+  } else {
+    $('.line').fadeIn(100);
+  }
 });

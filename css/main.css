@@ -44,7 +44,7 @@ iframe {
 }
 .styleguide-nav {
 	position: relative;
-	padding-top: 2em;
+	padding-top: 0;
 /*	z-index: 3;
 	top: 50vh;
 	transform: translateY(-50%);*/
@@ -57,11 +57,13 @@ iframe {
 
 .styleguide-nav a{
 	color: #000000;
+	text-decoration: none;
 }
 
 .styleguide-nav a:hover, .styleguide-nav a:focus, .styleguide-nav a:active {
-	text-decoration: none;
-	color: #FF8279;
+	text-decoration: line-through;
+	color: #000000;
+
 }
 
 .styleguide-nav li{
@@ -250,9 +252,8 @@ li {
 	width: 300px;
 	height: 200px;
 	overflow: hidden;
-	background-color: #FF8279;
+	background-color: #fff;
 	position: relative;
-
 
 }
 .colour-box img {
@@ -734,3 +735,367 @@ footer .grid-col-1of4{
 	text-decoration: underline !important;
 }
 
+
+/*=======================DAY IN THE LIFE=======================*/
+
+body#sd-proj, body#sd-proj-about {
+	background-color: #F9F0E5;
+	/*cursor: url('../images/click-me.png'), auto;*/
+
+
+}
+
+#sd-proj-about h1 {
+	font-family: 'Druk Wide', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+   /* text-transform: uppercase;*/
+	font-size: 1.5em;
+	letter-spacing: 0;
+}
+
+
+#sd-proj .intro-section h1 {
+	font-family: 'Druk Wide', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+	font-size: 3em;
+	letter-spacing: 0;
+   -webkit-text-fill-color: #000;
+   -webkit-text-stroke-width: 0px;
+   -webkit-text-stroke-color: #000;
+
+
+}
+
+#sd-proj .intro-img {
+	width: 600px;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 35%;
+	left: 50%;
+}
+
+#intro img {
+	position: relative;
+	top: -50%;
+	width:60%;
+	left: 15%;
+
+}
+
+#sd-proj .logo p, #sd-proj-about .logo p {
+	font-family: 'Inconsolata', monospace;
+	font-size: 1em;
+}
+
+#sd-proj .email {
+
+	text-decoration: none !important;
+}
+
+#sd-proj a:hover, #sd-proj-about a:hover{
+	text-decoration: line-through;
+	color: #000;
+}
+
+#sd-proj .email:hover, #sd-proj-about .email:hover {
+	text-decoration: line-through !important;
+}
+
+#sd-proj .work-section {
+	top: 67%;
+	position: relative;
+}
+
+/*.sd-section img{
+	width: auto;
+
+}*/
+
+.line {
+	/*background-color: black;
+	width: 3px;
+	height: 30px;*/
+	width: 33px;
+	position: fixed;
+	left: 50%;
+	top: 93%;
+	transform: translate(-50%, -50%);
+
+
+}
+
+.main-icon {
+	position: absolute;
+	left: 0;
+	top:0;
+	opacity: 0;
+}
+
+.hover-icon {
+	opacity: 1;
+	position: absolute;
+	left: 0;
+	top:0;
+}
+
+.main-icon:hover {
+	opacity: 1;
+	/*cursor: pointer;*/
+	cursor: url('../images/click-me.png'), pointer;
+
+}
+
+.hover-icon:hover {
+	opacity: 0;
+	/*cursor: pointer;*/
+	cursor: url('../images/click-me.png'), pointer;
+}
+
+.time {
+	padding: 15em 0;
+
+}
+
+.toast {
+	position: relative;
+	width:50%;
+	left:50%;
+	transform: translate(-50%,0);
+}
+.sd-icon {
+	position: relative;
+	left:50%;
+
+}
+
+.sd-icon img {
+	width: auto;
+	transform: translate(-50%);
+}
+#sd-proj p {
+	font-family: 'Druk Wide', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    /*text-transform: uppercase;*/
+    font-size: 1.7em;
+    color: #000;
+
+}
+
+
+.main-img {
+	position:absolute;
+	
+}
+
+.main-img:hover {
+	opacity:0;
+
+}
+
+.team-img {
+	position: relative;
+	left:10%;
+
+
+}
+
+
+.team-img img {
+	width: 80%;
+}
+.hover-img {
+	position: absolute;
+	top:0;
+}
+
+.sd-section {
+	margin: 6em 0;
+	padding: 2em 0;
+}
+
+.sd-image-container-wide, .sd-image-container-tall {
+	overflow: hidden;
+	position: relative;
+}
+
+.sd-image-container-wide {
+	width: 100%;
+	height: 350px;
+	left:10%;
+}
+.sd-image-container-tall {
+	left:20%;
+	height:500px;
+	width: 400px;
+
+}
+.sd-image-container-wide img, .sd-image-container-tall img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+#intro video {
+  width: 60%    !important;
+  height: auto   !important;
+  position:relative;
+  left: 50%;
+  transform: translate(-50%,-25%);
+
+}
+
+.biking-container {
+	position: relative;
+}
+.biking-container iframe {
+	width: 280px  !important;
+	height: 280px !important;
+
+	position: absolute;
+	top: 65%;
+	left: 40%;
+/*	transform: translate(-50%, 0);*/
+
+}
+.biking-container img {
+	position: absolute;
+	width:30%;
+	top: -15%;
+	left: 50%;
+}
+
+.biking-container p {
+	position: absolute;
+	width: 30%;
+	left:70%;
+	top:10%;
+}
+.biking-container video {
+
+  width: 30%    !important;
+  height: auto   !important;
+  position:relative;
+  left:30%;
+  transform: translate(-50%, 0);
+
+}
+
+.coffee-time {
+	width:auto;
+	position:relative;
+/*	left:50%;*/
+	transform: translate(0, 25%);
+
+}
+.ollie-img {
+	position: relative;
+	left:20%;
+}
+
+#skating p {
+	position: relative;
+	left:20%;
+}
+.skate-collage {
+	position: relative;
+}
+
+.fs180-video {
+	width: 50%;
+	position: relative;
+	left:10%;
+}
+
+.pop-shuv {
+	width: 20%;
+	position: absolute;
+	top: 25%;
+	left:55%;
+
+}
+
+.cruising {
+	width: 15%;
+	position: relative;
+	top: -100px;
+/*	left: 20%;*/
+
+}
+
+
+
+.no-comply {
+	position: absolute;
+	left:70%;
+	width: 35%;
+	top:15%;
+}
+.cups-img {
+	width: auto;
+	position: relative;
+/*	left: 50%;
+	transform: translate(-50%, 0);*/
+}
+
+.coffee-section {
+	position: relative;
+}
+
+.coffee-time {
+/*	position: absolute;
+	left:5%;
+	top:200px;*/
+}
+
+.coffee-section .sd-icon {
+	position: relative;
+	top:60px;
+
+
+}
+
+.coffee-section .cups-img {
+	left:20%;
+/*	top:200px;*/
+}
+/*
+#work .sd-icon {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+}*/
+/*#intro .box-container {
+
+	position: fixed;
+	height: auto;
+	transform: translate(-50%, -50%);
+	top: 50vh;
+	left: 50vw;
+}
+*/
+/*#sd-proj .colour-box {
+	width: 300px;
+	height: 500px;
+	overflow: hidden;
+	background-color: #fff;
+	position: relative;
+	top:0;
+
+}*/
+
+.biking-video {
+	margin: 10em 0;
+}
+/*.intro-img {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 40%;
+	left: 52%;
+	
+}*/

@@ -23,3 +23,14 @@
     font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'Druk Wide';
+    src: url('../fonts/DrukWide-Medium.eot');
+    src: url('../fonts/DrukWide-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DrukWide-Medium.woff2') format('woff2'),
+        url('../fonts/DrukWide-Medium.woff') format('woff'),
+        url('../fonts/DrukWide-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
