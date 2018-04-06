@@ -1104,7 +1104,13 @@ body#sd-proj, body#sd-proj-about {
 /*	left: 20%;*/
 
 }
+.skate-cartoon {
+	position: absolute;
+	width:20%;
+	top:60%;
+	left:20%;
 
+}
 
 
 .no-comply {
@@ -1231,6 +1237,58 @@ body#sd-proj, body#sd-proj-about {
 }
 .biking-video {
 	margin: 10em 0;
+}
+.party-collage{
+	position: relative;
+	height: 80vh;
+}
+.party-1 {
+	position: absolute;
+	width:20%;
+	
+}
+
+.party-2 {
+	position: absolute;
+	width:30%;
+	left:70%;
+}
+.party-3 {
+	position: absolute;
+	left:45%;
+	width:25%;
+	top:50%;
+}
+.party-time {
+	position: absolute;
+	left:30%;
+	width:25%;
+	top:-20%;
+	transform: translate(-50%);
+}
+
+.party-time p{
+	font-size: 4em !important;
+}
+
+.party-vid {
+	width:20%;
+	position: absolute;
+	left:10%;
+	top:10%;
+}
+
+.party-4{
+	position: absolute;
+	width:30%;
+	left:35%;
+	top:15%;
+}
+.party-6{
+	position: absolute;
+	width:20%;
+	left:75%;
+	top:40%;
 }
 /*.intro-img {
 	position: absolute;
