@@ -13,4 +13,10 @@ $(document).scroll(function() {
   } else {
     $('.line').fadeIn(100);
   }
+
+  if (y >100) {
+    $('.work-collage').fadeIn(100);
+  } else {
+    $('.work-collage').fadeOut(100);
+  }
 });
