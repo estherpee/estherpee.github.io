@@ -917,6 +917,8 @@ body#sd-proj, body#sd-proj-about {
 
 }
 
+
+
 .work-timelapse{
 	position: absolute;
 	width:50%;
@@ -1108,33 +1110,40 @@ body#sd-proj, body#sd-proj-about {
 	width: 35%;
 	top:15%;
 }
-.cups-img {
-	width: auto;
-	position: relative;
-/*	left: 50%;
-	transform: translate(-50%, 0);*/
-}
+
 
 .coffee-section {
 	position: relative;
+	height:500px;
 }
 
-.coffee-time {
-/*	position: absolute;
-	left:5%;
-	top:200px;*/
-}
+
 
 .coffee-section .sd-icon {
-	position: relative;
-	top:60px;
+	position: absolute;
+	top:60%;
+	left:10%;
+
 
 
 }
+.coffee-copy {
+	position: absolute;
+	width:40%;
+	top:20%;
+}
+.cups-img-container{
+	position: absolute;
+	left:45%;
+	width:30%;
 
-.coffee-section .cups-img {
-	left:20%;
-/*	top:200px;*/
+	top:10%;
+}
+.coffee-machine {
+	position: absolute;
+	width:20%;
+	top: 20%;
+	left:80%;
 }
 /*
 #work .sd-icon {
