@@ -1093,7 +1093,7 @@ body#sd-proj, body#sd-proj-about {
 	width: 20%;
 	position: absolute;
 	top: 25%;
-	left:55%;
+	left:50%;
 
 }
 
@@ -1108,14 +1108,14 @@ body#sd-proj, body#sd-proj-about {
 	position: absolute;
 	width:20%;
 	top:60%;
-	left:20%;
+	left:36%;
 
 }
 
 
 .no-comply {
 	position: absolute;
-	left:70%;
+	left:74%;
 	width: 35%;
 	top:15%;
 }
