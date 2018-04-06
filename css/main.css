@@ -858,13 +858,38 @@ body#sd-proj, body#sd-proj-about {
 	padding: 15em 0;
 
 }
+.toast-container {
+	position:relative;
+	height: 500px;
 
-.toast {
-	position: relative;
-	width:50%;
-	left:50%;
+}
+
+.toast-gif {
+	position: absolute;
+	width:35%;
+	left:65%;
 	transform: translate(-50%,0);
 }
+
+.toast-description-1 {
+	position: absolute;
+	width: 8%;
+	top:50%;
+	left:10%;
+	transform: translateY(-50%);
+}
+
+.toast-description-2 {
+	position: absolute;
+	width:8%;
+	left:70%;
+	top:50%;
+	transform: translateY(-50%);
+	
+}
+
+
+
 .sd-icon {
 	position: relative;
 	left:50%;
@@ -887,7 +912,7 @@ body#sd-proj, body#sd-proj-about {
 
 .work-collage{
 	position: relative;
-	margin-top: 6em;
+	margin-top: 8em;
 	height:100vh;
 
 }
@@ -1136,6 +1161,9 @@ body#sd-proj, body#sd-proj-about {
 
 }*/
 
+.hideme {
+	opacity: 0;
+}
 .biking-video {
 	margin: 10em 0;
 }

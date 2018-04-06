@@ -3,6 +3,8 @@
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
+  var bottom_of_window = $(window).scrollTop() + $(window).height();
+
   if (y >200) {
     $('.box-container').fadeOut(200);
   } else {
@@ -14,9 +16,7 @@ $(document).scroll(function() {
     $('.line').fadeIn(100);
   }
 
-  if (y >100) {
-    $('.work-collage').fadeIn(100);
-  } else {
-    $('.work-collage').fadeOut(100);
-  }
 });
+
+
+
