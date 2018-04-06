@@ -916,7 +916,7 @@ body#sd-proj, body#sd-proj-about {
 .work-collage{
 	position: relative;
 	margin-top: 8em;
-	height:100vh;
+	height:500px;
 
 }
 
@@ -1250,7 +1250,7 @@ body#sd-proj, body#sd-proj-about {
 }
 .party-collage{
 	position: relative;
-	height: 80vh;
+	height: 500px;
 }
 .party-1 {
 	position: absolute;
@@ -1299,6 +1299,7 @@ body#sd-proj, body#sd-proj-about {
 	width:20%;
 	left:75%;
 	top:40%;
+	transform: rotate(90deg);
 }
 
 .night-type {
