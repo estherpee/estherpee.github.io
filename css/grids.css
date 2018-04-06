@@ -70,8 +70,17 @@ body {
 	margin-top: 0;
 }
 
+@media (min-width: 1076px){
+	#mobile {
+		display:none;
+	}
 
+}
 @media (min-width: 35em){
+
+	
+
+
 
 	.hero-image-container {
 		width: 90%;
@@ -109,6 +118,7 @@ body {
 	}
 }
 @media (min-width: 50em){
+
 	.styleguide-nav {
 		position: fixed;
 		z-index: 3;

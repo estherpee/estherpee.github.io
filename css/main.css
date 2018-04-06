@@ -751,6 +751,7 @@ body#sd-proj, body#sd-proj-about {
     font-style: normal;
    /* text-transform: uppercase;*/
 	font-size: 1.5em;
+	color: #000;
 	letter-spacing: 0;
 }
 
@@ -794,7 +795,9 @@ body#sd-proj, body#sd-proj-about {
 
 	text-decoration: none !important;
 }
-
+#sd-proj-about a {
+	color: #000;
+}
 #sd-proj a:hover, #sd-proj-about a:hover{
 	text-decoration: line-through;
 	color: #000;
@@ -1116,7 +1119,20 @@ body#sd-proj, body#sd-proj-about {
 	position: relative;
 	height:500px;
 }
-
+.cooking-container {
+	position: relative;
+}
+.cooking-video	{
+	position: relative;
+	width:30%;
+	transform: translateX(-50%);
+	left:50%;
+}
+.cooking-container p{
+	position: absolute;
+	width:30%;
+	top:30%;
+}
 
 
 .coffee-section .sd-icon {
@@ -1170,6 +1186,46 @@ body#sd-proj, body#sd-proj-about {
 
 }*/
 
+#mobile{
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	z-index:5;
+	display: block;
+	background-color: #F9F0E5;
+
+}
+
+#mobile h1{
+	position: relative;
+	text-align: center;
+	top:50%;
+
+}
+.loader{
+	position: fixed;
+  	left: 0px;
+  	top: 0px;
+  	width: 100vw;
+  	height: 100vh;
+  	z-index: 999999;
+  	background: url('../images/loading.gif') 50% 50% no-repeat #F9F0E5;
+  	background-size: auto;
+  	overflow: hidden;
+}
+.about {
+	max-width: 800px;
+	margin: 5em 0;
+
+}
+
+.about a{
+	font-size: 1em;
+}
 .hideme {
 	opacity: 0;
 }

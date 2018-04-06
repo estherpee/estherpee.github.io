@@ -15,9 +15,21 @@
 		<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
 
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript">
+        $(window).load(function() {
+          $(".loader").fadeOut("slow");
+        });
+   		</script>
 	</head>
+	
 
 	<body id="sd-proj">
+			<div class="loader"></div>
+			<div id="mobile">
+				<h1>Sorry :( Not responsive</h1>
+			</div>
+		
 			<header>
 				<div class="header-background">
 				</div>
@@ -27,12 +39,14 @@
 							<li><a href="#breakfast">7:40</a></li>
 							<li><a href="#biking">9:00</a></li>
 							<li><a href="#work">9:30</a></li>
-							<li><a href="#grocery">17:00</a></li>
+							<li><a href="#cooking">17:00</a></li>
 							<li><a href="#skating">19:00</a></li>
+							<li><a href="#chilling">21:00</a></li>
 						</ul>
 					</nav>
 				
 			</header>
+
 			<section id="intro">
 				<div class="intro-section">
 			
@@ -278,10 +292,21 @@
 				 		
 	 				
 		 			</section>
-		 			<section id="grocery">
+		 			<section id="cooking">
 		 					<div class="time">
 		 						<img src="images/sd-17.gif" alt="17:00">
 		 					</div>
+		 					<div class="cooking-container">
+		 						<p>Cooking dinner can get CRAZY sometimes</p>
+			 					<div class="cooking-video">
+									<video width="0" height="0" loop autoplay muted>
+				  						<source src="videos/cooking.mov" type="video/mp4">
+									</video>
+								</div>
+
+							</div>
+
+
 
 		 				
 		 			</section>
@@ -316,6 +341,46 @@
 			 				</div>
 
 		 				</div>
+		 				<div class="skate-collage">
+		 					<div class="fs180-video hideme">
+								<video width="0" height="0" loop autoplay>
+				  					<source src="videos/fs-180.mp4" type="video/mp4">
+								</video>
+							
+							</div>
+							
+							<div class="cruising hideme">
+								<video width="0" height="0" loop autoplay muted>
+				  					<source src="videos/cruise.mp4" type="video/mp4">
+								</video>
+								
+							</div>
+							<div class="no-comply hideme">
+								<video width="0" height="0" loop autoplay muted>
+				  					<source src="videos/no-comply.mp4" type="video/mp4">
+								</video>
+								
+							</div>
+							<div class="pop-shuv hideme">
+								<video width="0" height="0" loop autoplay muted>
+				  					<source src="videos/pop-shuv.mp4" type="video/mp4">
+								</video>
+								
+							</div>
+		 				</div>
+		 					
+		 				
+		 				
+		 			</section>
+		 			<section id="skating">
+		 				
+		 					<div class="time">
+		 						<img src="images/sd-21.gif" alt="21:00">
+		 					</div>
+		 					
+		 					
+
+		 			
 		 				<div class="skate-collage">
 		 					<div class="fs180-video hideme">
 								<video width="0" height="0" loop autoplay>
