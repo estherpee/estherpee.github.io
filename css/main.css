@@ -755,7 +755,9 @@ body#sd-proj, body#sd-proj-about {
 	letter-spacing: 0;
 }
 
-
+#sd-proj .intro-section {
+	position: relative;
+}
 #sd-proj .intro-section h1 {
 	font-family: 'Druk Wide', sans-serif;
     font-weight: normal;
@@ -770,12 +772,16 @@ body#sd-proj, body#sd-proj-about {
 
 }
 
-#sd-proj .intro-img {
-	width: 600px;
+#sd-proj .title{
 	position: absolute;
 	transform: translate(-50%, -50%);
 	top: 35%;
 	left: 50%;
+	width:100%;
+}
+
+.title h1 {
+	text-align: center;
 }
 
 #intro img {
@@ -1317,36 +1323,40 @@ body#sd-proj, body#sd-proj-about {
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
-	width:auto;
+	width:100%;
+
 
 }
 
 .night-type p, .z-1 p{
 	font-size: 6em !important;
+	text-align: center;
 }
 
 .z-2 p {
 	font-size: 3.5em !important;
+	text-align: center;
 }
 
 .z-3 p {
 	font-size: 2.5em !important;
+	text-align: center;
 }
 .z-1 {
 	position: relative;
 	left: 30%;
-	width:auto;
+	width:10%;
 }
 .z-2 {
 	position: relative;
 	left: 60%;
-	width:auto;
+	width:10%;
 }
 
 .z-3{
 	position: relative;
 	left: 40%;
-	width:auto;
+	width:10%;
 }
 
 .goodnight-container {
