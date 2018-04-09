@@ -961,7 +961,7 @@ body#sd-proj, body#sd-proj-about {
 .work-text {
 	position: absolute;
 	width:15%;
-	top:40%;
+	top:35%;
 }
 
 .flags {
@@ -1282,9 +1282,9 @@ body#sd-proj, body#sd-proj-about {
 }
 .party-time {
 	position: absolute;
-	left:30%;
+	left:35%;
 	width:25%;
-	top:-20%;
+	top:-23%;
 	transform: translate(-50%);
 }
 
@@ -1307,10 +1307,10 @@ body#sd-proj, body#sd-proj-about {
 }
 .party-6{
 	position: absolute;
-	width:20%;
+	width:15%;
 	left:75%;
-	top:40%;
-	transform: rotate(90deg);
+	top:35%;
+	
 }
 
 .night-type {
