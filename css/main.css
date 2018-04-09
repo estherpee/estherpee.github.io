@@ -895,13 +895,15 @@ body#sd-proj, body#sd-proj-about {
 
 .sd-icon {
 	position: relative;
-	left:50%;
+
+
 
 }
 
+
 .sd-icon img {
 	width: auto;
-	transform: translate(-50%);
+	/*transform: translate(-50%);*/
 }
 #sd-proj p {
 	font-family: 'Druk Wide', sans-serif;
@@ -1077,8 +1079,10 @@ body#sd-proj, body#sd-proj-about {
 
 #skating p {
 	position: relative;
-	left:20%;
+
 }
+
+
 .skate-collage {
 	position: relative;
 }
@@ -1170,13 +1174,13 @@ body#sd-proj, body#sd-proj-about {
 	left:45%;
 	width:30%;
 
-	top:10%;
+	top:20%;
 }
 .coffee-machine {
 	position: absolute;
 	width:20%;
-	top: 20%;
-	left:80%;
+	top: 10%;
+	left:75%;
 }
 /*
 #work .sd-icon {
@@ -1338,7 +1342,30 @@ body#sd-proj, body#sd-proj-about {
 	width:auto;
 }
 
+.goodnight-container {
+	position: relative;
+	height:450px;
 
+}
+
+.goodnight-container {
+	left: 50%;
+	transform: translate(-50%, 0);
+	position: relative;
+
+
+}
+.goodnight-icon {
+	left:70%;
+	top:15%;
+	position: absolute;
+}
+.goodnight-container .goodnight-still {
+	width:50%;
+	left: 10%;
+	position: absolute;
+/*	transform: translate(-50%, 0);*/
+}
 #goodnight {
 	margin-top:15em;
 	position: relative;

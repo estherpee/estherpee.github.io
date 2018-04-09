@@ -5,7 +5,7 @@
 $(document).ready(function(){
 	
     $(".light-icon").click(function(){
-		$(".wakeup-img").attr("src", "images/dd17_banner.gif").attr("alt", "wake-up");
+		$(".wakeup-img").attr("src", "images/wake-up.gif").attr("alt", "wake-up");
 		// $(".state-2").attr("src", "images/philips.gif").attr("alt", "sleeping");
     });
 
@@ -22,6 +22,11 @@ $(document).ready(function(){
     $(".ollie-icon").click(function(){
     	$(".ollie-img").attr("src", "images/ollie.gif").attr("alt", "ollie");
 
+    });
+
+    $(".light-off-icon").click(function(){
+    $(".goodnight-still").attr("src", "images/goodnight.gif").attr("alt", "wake-up");
+    // $(".state-2").attr("src", "images/philips.gif").attr("alt", "sleeping");
     });
   //  	$(".product-img-sub-2").click(function(){
 		// $(".product-img-main > .main-img").attr("src", "images/gladiator-ring-silver-1.jpg").attr("alt", "Gladiator Ring Silver");
