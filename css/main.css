@@ -877,7 +877,7 @@ body#sd-proj, body#sd-proj-about {
 .toast-description-1 {
 	position: absolute;
 	width: 8%;
-	top:50%;
+	top:40%;
 	left:10%;
 	transform: translateY(-50%);
 }
